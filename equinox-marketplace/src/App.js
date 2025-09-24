@@ -1,24 +1,32 @@
 import logo from './logo.svg';
 import './App.css';
+import Navbar from './Navbar';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      
+    <div>
+        <header>
+            <Navbar />
+            
+        </header>           
+      </div>
+
+      <div>
+        <main>
+          <p>Welcome to the Equinox Marketplace!</p>
+        </main>
+      </div>
+
+      <div>
+        <footer>
+          <p>&copy; 2024 Equinox Marketplace. All rights reserved.</p>
+        </footer>
+      </div>
+
     </div>
+
   );
 }
 
