@@ -1,0 +1,52 @@
+.navbarGeneral {
+  padding: 2%;
+  height: 8vh;
+  }
+
+.gradientBackground {
+  background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
+  padding: 1rem;
+  }
+
+.navbarButtons {
+  
+  display: flex;
+  gap: 1rem;
+  padding: 0.75rem;
+  &:hover {
+    cursor: pointer;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    transition: 0.4s;
+    padding: 0.5rem;
+  }
+  
+}
+
+.navbarDropdown {
+  background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+  
+}
+.dropdownItem {
+  &:hover {
+    background-color: #e47175;
+    color: antiquewhite;
+    transition: 0.4s;
+    padding: 0.5rem;
+    border: 5px;
+    border-radius: 5px;
+  }
+}
+
+.navbarSearchButton {
+  margin-left: 1rem;
+  
+  color: white;
+  border: 1px solid #5a32a2;
+  &:hover {
+    background-color: #5a32a3;
+    color: white;
+    transition: 0.4s;
+    padding: 0.5rem;
+  }
+}

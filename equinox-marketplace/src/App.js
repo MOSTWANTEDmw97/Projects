@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Navbar from './Navbar';
+import MainContent from './mainContent';
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
 
       <div>
         <main>
-          <p>Welcome to the Equinox Marketplace!</p>
+          <MainContent />
         </main>
       </div>
 
