@@ -30,11 +30,18 @@ function App() {
           <Route path="/Logout" element={<Logout />} />
         </Routes>
 
-        <div>
-          <footer>
-            <p>&copy; 2024 Equinox Marketplace. All rights reserved.</p>
-          </footer>
-        </div>
+
+       
+
+
+        <div className="bg-light border-top mt-5">
+  <footer className="container py-4 text-center">
+    <p className="mb-1 text-muted">&copy; 2024 <strong>Equinox Marketplace</strong>. All rights reserved.</p>
+    <small className="text-secondary">Built with ❤️ for book lovers and marketplace explorers.</small>
+    <br />
+    <small>Check out our github repository <a href="https://github.com/MOSTWANTEDmw97/Projects" target="_blank" rel="noopener noreferrer">here</a>.</small>
+  </footer>
+  </div>
 
       </div>
     </Router>

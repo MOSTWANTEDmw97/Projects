@@ -1,24 +1,35 @@
-import Card from "./Card"
+import MainStyle from './Styles/MainStyle.module.scss';
 
 export default function Login() {
     return (
-    <div>
-      <form>
-        <div class="form-group">
+    <div className={MainStyle.mainContent}>
+    <div className={`card d-flex flex-column justify-content-between `} style={{ padding: '20px', maxWidth: '400px', margin: '20px auto' } }>
+      <form >
+        <div className={`form-group `}>
+            <h3>Login to Your Account</h3>
+            <br />
+            <label for="exampleInputEmail1">User Name</label>
+            <input type="name" className={`form-control`} id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter username" />
             <label for="exampleInputEmail1">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />
-            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            <input type="email" className={`form-control`} id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />
+            <small id="emailHelp" className={`form-text text-muted`}>We'll never share your email with anyone else.</small>
+            
+            
         </div>
-        <div class="form-group">
+        <div className={`form-group`}>
+          <br />
           <label for="exampleInputPassword1">Password</label>
-          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" />
+          <input type="password" className={`form-control`} id="exampleInputPassword1" placeholder="Password" />
+          <br />
         </div>
-        <div class="form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1" />
-          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        <div className={`form-check`}>
+          <input type="checkbox" className={`form-check-input`} id="exampleCheck1" />
+          <label className={`form-check-label`} for="exampleCheck1">Remember me</label>
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <br />
+        <button type="submit" className={`btn btn-primary`}>Submit</button>
       </form>
+    </div>
     </div>
   );
 
