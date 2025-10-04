@@ -6,7 +6,8 @@ import Ebook from './Images/Ebook.png';
 
 export default function MainContent() {
   return (
-    <div className={MainStyle.mainContent}>
+    <main>
+      <div className={MainStyle.mainContent}>
 
       <div className="row">
         <div className={`col-12 ${MainStyle.cardRow}`}>
@@ -38,36 +39,38 @@ export default function MainContent() {
       
 
 
-      <h1>Main Content ...</h1>
-      <p>This is where the main content of the marketplace will be displayed.</p>
-      <p>Explore various products and services available for purchase.</p>
-      <p>Stay tuned for updates and new features!</p>
-      <br />
-      <br />
-      <h1>Main Content ...</h1>
-      <p>This is where the main content of the marketplace will be displayed.</p>
-      <p>Explore various products and services available for purchase.</p>
-      <p>Stay tuned for updates and new features!</p>
-      <br />
-      <br />
-      <h1>Main Content ...</h1>
-      <p>This is where the main content of the marketplace will be displayed.</p>
-      <p>Explore various products and services available for purchase.</p>
-      <p>Stay tuned for updates and new features!</p>
-      <br />
-      <br />
-      <h1>Main Content ...</h1>
-      <p>This is where the main content of the marketplace will be displayed.</p>
-      <p>Explore various products and services available for purchase.</p>
-      <p>Stay tuned for updates and new features!</p>
-      <br />
-      <br />
-      <h1>Main Content ...</h1>
-      <p>This is where the main content of the marketplace will be displayed.</p>
-      <p>Explore various products and services available for purchase.</p>
-      <p>Stay tuned for updates and new features!</p>
-      <br />
-      <br />
-    </div>
-  );
+        <h1>Main Content khdsbfhakbvf ...</h1>
+        <p>This is where the main content of the marketplace will be displayed.</p>
+        <p>Explore various products and services available for purchase.</p>
+        <p>Stay tuned for updates and new features!</p>
+        <br />
+        <br />
+        <h1>Main Content ...</h1>
+        <p>This is where the main content of the marketplace will be displayed.</p>
+        <p>Explore various products and services available for purchase.</p>
+        <p>Stay tuned for updates and new features!</p>
+        <br />
+        <br />
+        <h1>Main Content ...</h1>
+        <p>This is where the main content of the marketplace will be displayed.</p>
+        <p>Explore various products and services available for purchase.</p>
+        <p>Stay tuned for updates and new features!</p>
+        <br />
+        <br />
+        <h1>Main Content ...</h1>
+        <p>This is where the main content of the marketplace will be displayed.</p>
+        <p>Explore various products and services available for purchase.</p>
+        <p>Stay tuned for updates and new features!</p>
+        <br />
+        <br />
+        <h1>Main Content ...</h1>
+        <p>This is where the main content of the marketplace will be displayed.</p>
+        <p>Explore various products and services available for purchase.</p>
+        <p>Stay tuned for updates and new features!</p>
+        <br />
+        <br />
+      </div>
+
+    </main>
+      );
 }
